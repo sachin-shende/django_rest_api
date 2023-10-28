@@ -22,5 +22,8 @@ class PostViewSet(viewsets.ModelViewSet):
     serializer_class=PostSerializer
     pagination_class=PostPagination
     throttle_classes=[PostThrottle]
+
+
+# hi this timepass    
     
     
